@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+<title>Lords Farms</title><desc>LF monogram with a sprouting leaf</desc>
+<rect width="120" height="120" rx="28" fill="#173B2C"/>
+<path d="M62 85c0-23 4-38 18-53" fill="none" stroke="#D8C58C" stroke-width="7" stroke-linecap="round"/>
+<path d="M79 34c11-9 21-8 27-7-1 8-7 20-24 22" fill="#89A86A"/>
+<path d="M60 84H28V36h10v39h22z" fill="#F6F0E2"/>
+<path d="M50 36h28v10H60v11h15v9H60v18H50z" fill="#F6F0E2"/>
+</svg>
