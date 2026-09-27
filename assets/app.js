@@ -11,7 +11,7 @@
     const nav=links.map(([href,label,key])=>`<a href="${href}" ${page===key?'aria-current="page"':''}>${label}</a>`).join('');
     el.innerHTML=`<div class="topbar">Antelope Valley • Regenerative farm build • Harvest & experience updates</div>
       <header class="site-header"><div class="container nav">
-        <a class="brand" href="index.html"><img src="assets/logo.svg" alt="Lords Farms logo"><span>Lords Farms</span></a>
+        <a class="brand" href="index.html"><img src="assets/lords-farms-logo.jpg" alt="Lords Farms logo"><span>Lords Farms</span></a>
         <nav class="nav-links" aria-label="Main navigation">${nav}</nav>
         <div class="nav-actions"><button class="btn ghost small cart-btn" id="cart-open" aria-label="Open cart">Cart <span class="cart-count" id="cart-count">0</span></button><a class="btn primary small" href="contact.html">Get Updates</a><button class="menu-btn" id="menu-btn" aria-label="Open menu">☰</button></div>
       </div><nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation">${nav}</nav></header>`;
@@ -19,7 +19,7 @@
   function footer(){
     const el=$('#site-footer'); if(!el) return;
     el.innerHTML=`<footer class="footer"><div class="container"><div class="footer-grid">
-      <div><a class="brand" href="index.html"><img src="assets/logo.svg" alt=""><span>Lords Farms</span></a><p>Building a regenerative, water-smart farm and agritourism destination in California's Antelope Valley.</p></div>
+      <div><a class="brand" href="index.html"><img src="assets/lords-farms-logo.jpg" alt=""><span>Lords Farms</span></a><p>Building a regenerative, water-smart farm and agritourism destination in California's Antelope Valley.</p></div>
       <div><h4>Explore</h4><a href="shop.html">Farm Store</a><a href="experiences.html">Experiences</a><a href="story.html">Our Story</a></div>
       <div><h4>Work With Us</h4><a href="contact.html#wholesale">Wholesale</a><a href="contact.html#partnerships">Partnerships</a><a href="contact.html">Farm Updates</a></div>
       <div><h4>Contact</h4><p>${D.business.location}</p><a href="mailto:${D.business.email}">${D.business.email}</a></div>
